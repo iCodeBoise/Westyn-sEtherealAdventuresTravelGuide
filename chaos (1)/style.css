@@ -1,0 +1,35 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: sandybrown;
+}
+
+.topnav {
+  background-color: darkturquoise;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: lemonchiffon;
+  text-align: center;
+  padding: 14px 13px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+body{
+  font-family:snell roundhand;
+}
+
+.grid-container {
+  display: grid;
+  grid-template:auto auto/auto auto;
+  padding-left: 10px;
+}
+
+.grid-container2 {
+  display: grid;
+  grid-template:auto auto auto auto/auto auto auto;
+  padding-left: 10px;
+}
